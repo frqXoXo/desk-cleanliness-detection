@@ -1,0 +1,14 @@
+# Core processing/ML packages for local setup. For Colab check installed versions first.
+numpy
+pandas
+matplotlib
+opencv-python-headless
+scikit-image
+scikit-learn
+seaborn
+Pillow
+joblib
+
+# Deep learning: Colab often has TensorFlow preinstalled.
+# If absent, install the appropriate release in the notebook/environment.
+# tensorflow

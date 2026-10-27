@@ -1,0 +1,38 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
+# Secrets / configs
+.env
+.env.*
+*.key
+credentials.json
+service-account*.json
+
+# Primary datasets and bulky generated outputs
+*.zip
+*.tar.gz
+*.7z
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+*.pkl
+checkpoints/
+models/
+outputs/
+data/raw/
+data/processed/
+results/models/
+results/checkpoints/
+# Small curated charts and CSV metrics in results/ ARE allowed.
